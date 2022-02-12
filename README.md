@@ -10,3 +10,6 @@ the robot's controller. Instead, the control is done by the driver node itself t
 
 Although the current version has been structured as described above, it is possible that future versions will support a more 
 traditional ROS-Industrial protocol, connecting to a ROS Controller node on the Robot's controller through Simple Message.
+
+## Note
+It is quite difficult to simulate a parallel robot like DeltaX on Ros so I converted the parallel robot to serial by splitting some links
