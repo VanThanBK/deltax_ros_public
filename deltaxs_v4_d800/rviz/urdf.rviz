@@ -1,0 +1,281 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /Grid1
+        - /RobotModel1
+        - /RobotModel1/Description Topic1
+        - /RobotModel1/Links1
+        - /RobotModel1/Links1/ball_bot1_Link1
+        - /RobotModel1/Links1/ball_bot2_Link1
+        - /TF1
+        - /TF1/Status1
+        - /TF1/Frames1
+        - /TF1/Frames1/ball_bot1_Link1
+        - /TF1/Tree1
+        - /TF1/Tree1/odom1
+        - /TF1/Tree1/odom1/base_link1
+        - /TF1/Tree1/odom1/base_link1/rf3_Link1
+        - /TF1/Tree1/odom1/base_link1/rf3_Link1/ball_top3_Link1
+      Splitter Ratio: 0.5803357362747192
+    Tree Height: 353
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+      - /Current View1/Focal Point1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.2
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        ball_bot1_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ball_bot2_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ball_bot3_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ball_moving_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ball_top1_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ball_top2_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ball_top3_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        re1_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        re2_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        re3_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        re4_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        re5_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        re6_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        rf1_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        rf2_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        rf3_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz_default_plugins/TF
+      Enabled: false
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        ball_bot1_Link:
+          Value: true
+        ball_bot2_Link:
+          Value: true
+        ball_bot3_Link:
+          Value: true
+        ball_moving_Link:
+          Value: true
+        ball_top1_Link:
+          Value: true
+        ball_top2_Link:
+          Value: true
+        ball_top3_Link:
+          Value: true
+        base_link:
+          Value: true
+        odom:
+          Value: true
+        re1_Link:
+          Value: true
+        re2_Link:
+          Value: true
+        re3_Link:
+          Value: true
+        re4_Link:
+          Value: true
+        re5_Link:
+          Value: true
+        re6_Link:
+          Value: true
+        rf1_Link:
+          Value: true
+        rf2_Link:
+          Value: true
+        rf3_Link:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: false
+      Tree:
+        odom:
+          base_link:
+            rf1_Link:
+              ball_top1_Link:
+                re1_Link:
+                  ball_bot1_Link:
+                    ball_moving_Link:
+                      ball_bot2_Link:
+                        {}
+                      ball_bot3_Link:
+                        {}
+                re2_Link:
+                  {}
+            rf2_Link:
+              ball_top2_Link:
+                re3_Link:
+                  {}
+                re4_Link:
+                  {}
+            rf3_Link:
+              ball_top3_Link:
+                re5_Link:
+                  {}
+                re6_Link:
+                  {}
+      Update Interval: 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.0619428157806396
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.03550608828663826
+        Y: -0.05404180660843849
+        Z: -0.31443437933921814
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.37999996542930603
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 4.590001106262207
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 800
+  Hide Left Dock: false
+  Hide Right Dock: true
+  QMainWindow State: 000000ff00000000fd0000000100000000000001a3000002bffc0200000002fb000000100044006900730070006c0061007900730100000042000001a4000000f100fffffffb0000000a0056006900650077007301000001eb00000116000000bd00ffffff00000363000002bf00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1291
+  X: 353
+  Y: 68
